@@ -10,3 +10,8 @@ Quando eu for chamar minha v6 em outro lugar por exemplo, posso usar:
 >>> import area_circunferencia_v6 as v6
 
 #########################################################################
+69 - Obtendo argumento via terminal
+
+Quando eu for trabalhar chamando pelo terminal o nome do arquivo mais o argumento na frente
+
+#########################################################################
