@@ -5,6 +5,6 @@ from math import pi
 
 # print('pi = ', math.pi)
 print('pi = ', pi)
-raio = 15.3
+raio = input('Informe o raio: ')
 
-print('A área do círculo é: ', pi * raio ** 2)
+print('A área do círculo é: ', pi * float(raio) ** 2)
