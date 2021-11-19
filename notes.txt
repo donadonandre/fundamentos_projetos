@@ -2,7 +2,11 @@
 66 - Testando se é o módulo principal
 
 Adicionando o if para testar o __name__ como está no v4, quanto eu importo ele em outro lugar, ele não executa
+
 #########################################################################
-67
+68 - Adicionando retorno para função
+
+Quando eu for chamar minha v6 em outro lugar por exemplo, posso usar:
+>>> import area_circunferencia_v6 as v6
 
 #########################################################################
