@@ -15,3 +15,6 @@ Quando eu for chamar minha v6 em outro lugar por exemplo, posso usar:
 Quando eu for trabalhar chamando pelo terminal o nome do arquivo mais o argumento na frente
 
 #########################################################################
+75 - Melhorando a mensagem de erro
+
+site: pep8online.com

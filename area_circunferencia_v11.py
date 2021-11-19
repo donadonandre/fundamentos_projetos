@@ -4,6 +4,10 @@ from math import pi
 import sys
 
 
+class TerminalColor:
+    ERRO = '\033[91m'
+    NORMAL = '\033[0m'
+
 def circulo(raio):
     return pi * float(raio) ** 2
 
@@ -20,7 +24,7 @@ if __name__ == '__main__':
 
     if not sys.argv[1].isnumeric():
         help()
-        print('Você não passou um argumento válido')
+        print(TerminalColor.ERRO + 'Você não passou um argumento válido' + TerminalColor.NORMAL)
         sys.exit(errno.EINVAL)
 
 
